@@ -83,4 +83,5 @@ Route::get('/backend', function() {
 });
 
 /* project #02 */
-Route::get('/dbdMun', 'dashboardMunicipalityController@index');
+Route::get('/dbdMun', 'dashboardMunicipalityController@index')->name('dbdMun');
+Route::get('/dbdUrb', 'dashboardMunicipalityController@index')->name('dbdUrb');

@@ -641,7 +641,7 @@ a:focus {
 .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu > li:hover > .treeview-menu {
   display: block !important;
   position: absolute;
-  width: 250px;
+  width: 180px;
   left: 50px;
 }
 .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu > li:hover > a > span {
@@ -654,7 +654,7 @@ a:focus {
   position: relative !important;
   float: right;
   width: auto !important;
-  left: 250px !important;
+  left: 180px !important;
   top: -22px !important;
   z-index: 900;
 }

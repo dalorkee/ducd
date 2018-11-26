@@ -32,7 +32,8 @@
 			</a>
 			<ul class="treeview-menu">
 				<li class="{{ active_check('dbd') }} {{ active_check('/') }}"><a href="{{ route('dbd') }}"><i class="fa fa-circle-o text-red"></i> รวม</a></li>
-				<li><a href="#"><i class="fa fa-circle-o text-aqua"></i> เทศบาล</a></li>
+				<li class="{{ active_check('dbdMun') }}"><a href="{{ route('dbdMun')}}"><i class="fa fa-circle-o text-aqua"></i> เทศบาล</a></li>
+				<li class="{{ active_check('dbdUrb') }}"><a href="{{ route('dbdUrb')}}"><i class="fa fa-circle-o text-aqua"></i> เขตเมือง</a></li>
 			</ul>
 		</li>
 		<li class="treeview {{ active_check('population') }}">
