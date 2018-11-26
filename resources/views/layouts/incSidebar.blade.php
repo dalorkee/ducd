@@ -6,7 +6,7 @@
 			{{ Html::image('public/images/default-avatar.png', 'alt=avatar', array('class'=>'img-circle')) }}
 		</div>
 		<div class="pull-left info">
-			<p>Alexander Pierce</p>
+			<p>{{ Auth::user()->firstName."&nbsp;".Auth::user()->lastname."&nbsp;-&nbsp;".Auth::user()->user_type }}</p>
 			<a href="#"><i class="fa fa-circle text-success"></i> Online</a>
 		</div>
 	</div>
